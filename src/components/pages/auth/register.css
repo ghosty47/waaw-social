@@ -1,0 +1,33 @@
+.register {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    
+}
+
+.register h3 {
+    text-shadow: 2px 2px 8px rgba(0,0,0,.6);
+    max-width: 170px;
+    padding-bottom: 10px;
+    margin: 5px;
+    font-size: 30px;
+    color: rgb(13, 136, 136);
+    font-weight: bold;
+    margin: 5px 0px 30px 5px;
+    border-bottom: 4px solid rgba(13, 136, 136);
+
+
+}
+
+.holder {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+    .register {
+        width: 90vw;
+    }
+}
